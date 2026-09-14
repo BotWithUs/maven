@@ -1,0 +1,36 @@
+<!doctype html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BotWithUs Maven repository</title>
+<style>
+  :root { color-scheme: light dark; }
+  body { max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem;
+         font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
+  h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+  p.lede { color: #666; margin-top: 0; }
+  pre { background: rgba(127,127,127,.12); padding: 1rem; border-radius: 6px;
+        overflow-x: auto; }
+  code { font-family: ui-monospace, SFMono-Regular, Consolas, monospace; font-size: .9em; }
+  footer { margin-top: 2.5rem; font-size: .9rem; color: #666; }
+</style>
+
+<h1>BotWithUs Maven repository</h1>
+<p class="lede">A static artifact tree. Resolves anonymously — no token required.</p>
+
+<pre><code>repositories {
+    mavenCentral()
+    maven { url = uri("https://botwithus.github.io/maven") }
+}
+
+dependencies {
+    implementation("com.botwithus:bot-api:1.0.0")
+}</code></pre>
+
+<p>Available versions:
+<a href="com/botwithus/bot-api/maven-metadata.xml">com/botwithus/bot-api/maven-metadata.xml</a></p>
+
+<footer>
+  Published automatically from
+  <a href="https://github.com/BotWithUs/BWUJavaScriptingFramework">BWUJavaScriptingFramework</a>.
+  Do not edit this repository by hand.
+</footer>
