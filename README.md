@@ -49,7 +49,7 @@ repositories {
 }
 
 dependencies {
-    implementation("net.botwithus.rs3:botwithus-api:1.0.8")
+    implementation("net.botwithus.rs3:botwithus-api:1.0.9")
 }
 ```
 
