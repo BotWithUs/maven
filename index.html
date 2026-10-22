@@ -7,6 +7,7 @@
   body { max-width: 46rem; margin: 3rem auto; padding: 0 1.25rem;
          font: 16px/1.6 system-ui, -apple-system, "Segoe UI", sans-serif; }
   h1 { font-size: 1.5rem; margin-bottom: .25rem; }
+  h2 { font-size: 1.15rem; margin-top: 2rem; }
   p.lede { color: #666; margin-top: 0; }
   pre { background: rgba(127,127,127,.12); padding: 1rem; border-radius: 6px;
         overflow-x: auto; }
@@ -29,8 +30,25 @@ dependencies {
 <p>Available versions:
 <a href="com/botwithus/bot-api/maven-metadata.xml">com/botwithus/bot-api/maven-metadata.xml</a></p>
 
+<h2>v1 API</h2>
+
+<pre><code>repositories {
+    mavenCentral()
+    maven { url = uri("https://botwithus.github.io/maven") }
+}
+
+dependencies {
+    implementation("net.botwithus.rs3:botwithus-api:1.0.8")
+}</code></pre>
+
+<p>Available versions:
+<a href="net/botwithus/rs3/botwithus-api/maven-metadata.xml">net/botwithus/rs3/botwithus-api/maven-metadata.xml</a></p>
+
 <footer>
-  Published automatically from
-  <a href="https://github.com/BotWithUs/BWUJavaScriptingFramework">BWUJavaScriptingFramework</a>.
+  Published from
+  <a href="https://github.com/BotWithUs/BWUJavaScriptingFramework">BWUJavaScriptingFramework</a>
+  (bot-api) and
+  BotWithUsAPI
+  (v1 botwithus-api).
   Do not edit this repository by hand.
 </footer>

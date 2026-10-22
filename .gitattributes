@@ -1,0 +1,5 @@
+# Store every file byte-for-byte. The .md5/.sha1/.sha256/.sha512 files beside
+# each artifact are checksums of its exact bytes, so Git must never rewrite
+# line endings (for example under core.autocrlf=true on Windows), or the
+# committed POM and metadata stop matching their published checksums.
+* -text
