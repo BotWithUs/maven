@@ -1,0 +1,97 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.botwithus.xapi.public",
+    "module": "api",
+    "version": "1.2.15",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.3"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "api-1.2.15.jar",
+          "url": "api-1.2.15.jar",
+          "size": 242912,
+          "sha512": "28d1404538d50203725a1ff3de9e42ec200fe80b0f6007420302379e4f7ea3f61451b4be9fb16236120749e47a32add79860eb932f8b3a734f71af9e3df8f0f0",
+          "sha256": "b9212775d8b7f24d31681333773a0f043b1caebcb3c5a3105b59de5f81003c23",
+          "sha1": "746fc1ce32bb044ab03b451943fddc6a7ec00af8",
+          "md5": "e26bd85234351c97df4743bb14eb59ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 20,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.10.1"
+          }
+        },
+        {
+          "group": "com.google.flogger",
+          "module": "flogger",
+          "version": {
+            "requires": "0.7.4"
+          }
+        },
+        {
+          "group": "net.botwithus.rs3",
+          "module": "botwithus-api",
+          "version": {
+            "requires": "1.+"
+          }
+        },
+        {
+          "group": "org.jetbrains",
+          "module": "annotations",
+          "version": {
+            "requires": "24.0.0"
+          }
+        },
+        {
+          "group": "org.projectlombok",
+          "module": "lombok",
+          "version": {
+            "requires": "1.18.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "api-1.2.15.jar",
+          "url": "api-1.2.15.jar",
+          "size": 242912,
+          "sha512": "28d1404538d50203725a1ff3de9e42ec200fe80b0f6007420302379e4f7ea3f61451b4be9fb16236120749e47a32add79860eb932f8b3a734f71af9e3df8f0f0",
+          "sha256": "b9212775d8b7f24d31681333773a0f043b1caebcb3c5a3105b59de5f81003c23",
+          "sha1": "746fc1ce32bb044ab03b451943fddc6a7ec00af8",
+          "md5": "e26bd85234351c97df4743bb14eb59ec"
+        }
+      ]
+    }
+  ]
+}

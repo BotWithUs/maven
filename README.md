@@ -10,6 +10,9 @@ Do not edit this repository by hand. `bot-api` is written by the
 workflow in `BotWithUs/BWUJavaScriptingFramework`, which runs when a `v*` tag is
 pushed there. The v1 `botwithus-api` is written by a local publish script in
 `BotWithUsAPI`, and each release arrives here as a pull request.
+The v1 extended API `net.botwithus.xapi.public:api` is published the same way from
+[`BwuExtendedPublicAPI`](https://github.com/BotWithUs/BwuExtendedPublicAPI) (Gradle `maven-publish` to a
+local checkout of this repository), also as a pull request.
 
 ## Using it
 
