@@ -1,0 +1,100 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.botwithus",
+    "module": "msgpack",
+    "version": "0.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "msgpack-0.1.0.jar",
+          "url": "msgpack-0.1.0.jar",
+          "size": 39020,
+          "sha512": "c7c32e0be5f128736e873b811ea465871927ab7a1d8e2d3035ca2b57982b14e254257ba04654a632be3998f6d3043a76cc71a0645750440a275b3c24c91383e4",
+          "sha256": "c91cd0a33a99786430ecabe2e325e19b31f8f3b9b2e950b094da82a93259a99a",
+          "sha1": "fbc90b7e0ed544d37007d0f33edab3380afc13b2",
+          "md5": "2836c51236cc8ee62f0b72f736cbf8df"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "msgpack-0.1.0.jar",
+          "url": "msgpack-0.1.0.jar",
+          "size": 39020,
+          "sha512": "c7c32e0be5f128736e873b811ea465871927ab7a1d8e2d3035ca2b57982b14e254257ba04654a632be3998f6d3043a76cc71a0645750440a275b3c24c91383e4",
+          "sha256": "c91cd0a33a99786430ecabe2e325e19b31f8f3b9b2e950b094da82a93259a99a",
+          "sha1": "fbc90b7e0ed544d37007d0f33edab3380afc13b2",
+          "md5": "2836c51236cc8ee62f0b72f736cbf8df"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "msgpack-0.1.0-sources.jar",
+          "url": "msgpack-0.1.0-sources.jar",
+          "size": 22036,
+          "sha512": "a0ec79723bb756fe8f92828e952f1e7e8e91e51701299a95b4eba01d5844c0d8280d699112d69695a079fd637d89c13d6f48d98d067b4256ed7fd710a47acb3b",
+          "sha256": "d6b63970a32b388935d2a0a8fe9af3c1b6c961988ec433385ae372e81432536c",
+          "sha1": "2d91684090fa4914eee657151668296851586a22",
+          "md5": "30e0d80288ccfb663b196bdd5457e71d"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "msgpack-0.1.0-javadoc.jar",
+          "url": "msgpack-0.1.0-javadoc.jar",
+          "size": 4235361,
+          "sha512": "2909124e5f6c8845bf8a053150023309098fc5a04cd67b4178bd39a105a534bf55ccc6d2bcae7690f6ec19a169999376eba8fa9487f6e76894497c053637ab5c",
+          "sha256": "fdcc884a2e74745c7b66db567a51c9fdd111abeac35c3e1f720424044da4a410",
+          "sha1": "e9a8db260356d2a8f563a42ba9d49c5fdf6b2a0f",
+          "md5": "c6ec202bdaf098b0587f582e494ea508"
+        }
+      ]
+    }
+  ]
+}
