@@ -1,0 +1,118 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "com.botwithus",
+    "module": "bot-api",
+    "version": "1.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "9.5.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bot-api-1.5.0.jar",
+          "url": "bot-api-1.5.0.jar",
+          "size": 370269,
+          "sha512": "65097bc2aae193a6614a01c0962fa2234a4edf7773731aa80fc4a4ab8cdf5e95ef983f97be590b2c19e1c47ab4c3c32173cb919d72f7581ebe8c2adc43ecf90a",
+          "sha256": "aeaf14535d89ee3123664c8c2337c5a92523db0cfc05315df67d226add215828",
+          "sha1": "cbad4860c3585c9aca3d5ee7e1388a5ff21f84cc",
+          "md5": "7552adf8a5c95b3fc65ee4229ed7f3ec"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 25,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-api",
+          "version": {
+            "requires": "2.0.16"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "bot-api-1.5.0.jar",
+          "url": "bot-api-1.5.0.jar",
+          "size": 370269,
+          "sha512": "65097bc2aae193a6614a01c0962fa2234a4edf7773731aa80fc4a4ab8cdf5e95ef983f97be590b2c19e1c47ab4c3c32173cb919d72f7581ebe8c2adc43ecf90a",
+          "sha256": "aeaf14535d89ee3123664c8c2337c5a92523db0cfc05315df67d226add215828",
+          "sha1": "cbad4860c3585c9aca3d5ee7e1388a5ff21f84cc",
+          "md5": "7552adf8a5c95b3fc65ee4229ed7f3ec"
+        }
+      ]
+    },
+    {
+      "name": "sourcesElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bot-api-1.5.0-sources.jar",
+          "url": "bot-api-1.5.0-sources.jar",
+          "size": 293933,
+          "sha512": "398716ebe6a215700a8af33366695c4e9d3e48d7428c50b68f2e448b3bff1315cf09f7a0a07c8c8b750b64b17180a74522c8898550a8338198485f2ff991500a",
+          "sha256": "498174a9f8eeff6e7539d9ff00604b261a5204bae68f5ba935a2118a73a41a3d",
+          "sha1": "846f0e0b7d4bc364dec43bba9a86160ae99ee2d0",
+          "md5": "0e20b34d491af3168c463eefd2cbaf59"
+        }
+      ]
+    },
+    {
+      "name": "javadocElements",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "javadoc",
+        "org.gradle.usage": "java-runtime"
+      },
+      "files": [
+        {
+          "name": "bot-api-1.5.0-javadoc.jar",
+          "url": "bot-api-1.5.0-javadoc.jar",
+          "size": 5585606,
+          "sha512": "25faccb5b9920ef11457d8666f28719ba827441acedc569badd11d9dd96f80b01ad653baa912f581ba26718be11d67cb12d7b0c944c52c8df83e0ab6797c07ec",
+          "sha256": "bcebbded450dccf2f390b7493be9990b20e267b03ae095474604270229e9d314",
+          "sha1": "8dcb9f68b52deed686934857f3f16bde97b8efc3",
+          "md5": "91027b8435313a14b66b804b50b0e90e"
+        }
+      ]
+    }
+  ]
+}
